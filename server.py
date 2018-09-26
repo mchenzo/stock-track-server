@@ -18,6 +18,7 @@ MONGO_URI = 'mongodb://chen:scootruin3@ds113853.mlab.com:13853/stockings'
 app = Flask(__name__)
 client = MongoClient(MONGO_URI)
 CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 API_KEY = 'SBEC9GQRUPSS4MAA'
