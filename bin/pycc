@@ -1,0 +1,3 @@
+#!/Users/mchenzo/Desktop/stock-track-front/Server/bin/python
+from numba.pycc import main
+main()
